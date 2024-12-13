@@ -1,11 +1,11 @@
-resource "aws_instance" "web" {
-  ami           = "ami-0453ec754f44f9a4a"
-  instance_type = "t3.micro"
+# resource "aws_instance" "web" {
+#   ami           = "ami-0453ec754f44f9a4a"
+#   instance_type = "t3.micro"
 
-  tags = {
-    Name = "HelloWorld"
-  }
-}
+#   tags = {
+#     Name = "HelloWorld"
+#   }
+# }
 
 # data "aws_ami" "ubuntu" {
 #   most_recent = true
@@ -21,11 +21,11 @@ resource "aws_instance" "web" {
 # }
 
 
-resource "aws_instance" "web2" {
-  ami           = "ami-0453ec754f44f9a4a"
-  instance_type = "t2.micro"
+# resource "aws_instance" "web2" {
+#   ami           = "ami-0453ec754f44f9a4a"
+#   instance_type = "t2.micro"
 
-  tags = {
-    Name = "jens-deployed."
-  }
-}
+#   tags = {
+#     Name = "jens-deployed."
+#   }
+# }
